@@ -1,0 +1,71 @@
+.header {
+    background: #151515 url('../images/bg.jpg') center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header .social {
+    bottom: 50px;
+}
+
+.header::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.header .roles {
+    font-family: 'lora-regular', serif;
+}
+
+.about-img {
+    width: 200px;
+}
+
+.project:hover {
+    transform: scale(1.05);
+    transition: all 0.5s ease-in-out;
+    opacity: 0.8;
+}
+
+.header .text-container {
+    z-index: 10;
+}
+
+.services {
+    background: url(/images/iphone-14-abstract-ios-16-dark-4k-wallpaper-uhdpaper.com-34@0@h.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.services::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.services .container {
+    z-index: 10;
+}
+
+@media (max-width: 767px) {
+    .header .social i {
+        font-size: 30px;
+    }
+
+    .header .roles {
+        font-size: 18px !important;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+}
