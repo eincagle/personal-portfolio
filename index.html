@@ -85,25 +85,25 @@
           <div class="col-md-6">
             <h3 class="text-uppercase fw-bold pb-3 text-center">Profile</h3>
             <ul class="list-group list-group-flush ps-7">
-              <li class="list-group-item mb-3 ps-5 scroll-reveal1">
+              <li class="list-group-item mb-3 ps-5 scroll-reveal1" id="passage">
                 <h5 class="text-transform ">
                   <i class="fas fa-user text-primary"></i> Full Name:
                 </h5>
                 <p>Ein Cagle</p>
               </li>
-              <li class="list-group-item mb-3 ps-5 scroll-reveal3">
+              <li class="list-group-item mb-3 ps-5 scroll-reveal3" id="passage">
                 <h5 class="text-transform">
                   <i class="fas fa-code text-primary"></i> Major: 
                 </h5>
                 <p>Computer Science</p>
               </li>
-              <li class="list-group-item mb-3 ps-5 scroll-reveal5">
+              <li class="list-group-item mb-3 ps-5 scroll-reveal5" id="passage">
                 <h5 class="text-transform">
                   <i class="fas fa-building text-primary"></i> Current Position:
                 </h5>
                 <p>Web Developer at Angel Leaf</p>
               </li>
-              <li class="list-group-item mb-3 ps-5 scroll-reveal7">
+              <li class="list-group-item mb-3 ps-5 scroll-reveal7" id="passage">
                 <h5 class="text-transform">
                   <i class="fas fa-envelope text-primary"></i> Email:
                 </h5>
@@ -113,13 +113,13 @@
           </div>
           <div class="col-md-6">
             <h3 class="text-uppercase fw-bold pb-4 text-center">Skills</h3>
-            <h5><i class="fas fa-check pb-4 ps-8 scroll-reveal1"></i> <span class="ps-3 scroll-reveal1">HTML5</span></h5>
-            <h5><i class="fas fa-check pb-4 ps-8 scroll-reveal2"></i> <span class="ps-3 scroll-reveal2">CSS</span></h5>
-            <h5><i class="fas fa-check pb-4 ps-8 scroll-reveal3"></i> <span class="ps-3 scroll-reveal3">JavaScript</span></h5>
-            <h5><i class="fas fa-check pb-4 ps-8 scroll-reveal4"></i> <span class="ps-3 scroll-reveal4">Bootstrap</span></h5>
-            <h5><i class="fas fa-check pb-4 ps-8 scroll-reveal5"></i> <span class="ps-3 scroll-reveal5">PHP</span></h5>
-            <h5><i class="fas fa-check pb-4 ps-8 scroll-reveal6"></i> <span class="ps-3 scroll-reveal6">UI/UX</span></h5>
-            <h5><i class="fas fa-check pb-4 ps-8 scroll-reveal7"></i> <span class="ps-3 scroll-reveal7">Python</span></h5>
+            <h5><i class="fas fa-check pb-4 ps-8 scroll-reveal1" id="passage"></i> <span class="ps-3 scroll-reveal1">HTML5</span></h5>
+            <h5><i class="fas fa-check pb-4 ps-8 scroll-reveal2" id="passage"></i> <span class="ps-3 scroll-reveal2">CSS</span></h5>
+            <h5><i class="fas fa-check pb-4 ps-8 scroll-reveal3" id="passage"></i> <span class="ps-3 scroll-reveal3">JavaScript</span></h5>
+            <h5><i class="fas fa-check pb-4 ps-8 scroll-reveal4" id="passage"></i> <span class="ps-3 scroll-reveal4">Bootstrap</span></h5>
+            <h5><i class="fas fa-check pb-4 ps-8 scroll-reveal5" id="passage"></i> <span class="ps-3 scroll-reveal5">PHP</span></h5>
+            <h5><i class="fas fa-check pb-4 ps-8 scroll-reveal6" id="passage"></i> <span class="ps-3 scroll-reveal6">UI/UX</span></h5>
+            <h5><i class="fas fa-check pb-4 ps-8 scroll-reveal7" id="passage"></i> <span class="ps-3 scroll-reveal7">Python</span></h5>
           </div>
         </div>
         <div class="row mt-5 text-center">
@@ -250,15 +250,16 @@
             </div>
 
             <!-- Form -->
-            <form>
+            <form action="https://formspree.io/f/xeqylolq"
+            method="POST">
               <div class="mb-5">
-                <input type="text" class="form-control bg-transparent border-top-0 border-start-0 border-end-0 rounded-0 border-muted text-white" placeholder="Name">
+                <input type="text" class="form-control bg-transparent border-top-0 border-start-0 border-end-0 rounded-0 border-muted text-white" name="name" placeholder="Name">
               </div>
               <div class="mb-5">
-                <input type="email" class="form-control bg-transparent border-top-0 border-start-0 border-end-0 rounded-0 border-muted text-white" placeholder="Email">
+                <input type="email" class="form-control bg-transparent border-top-0 border-start-0 border-end-0 rounded-0 border-muted text-white" name="email" placeholder="Email">
               </div>
               <div class="mb-5">
-                <textarea class="form-control bg-transparent border-top-0 border-start-0 border-end-0 rounded-0 border-muted text-white" placeholder="Message"></textarea>
+                <textarea class="form-control bg-transparent border-top-0 border-start-0 border-end-0 rounded-0 border-muted text-white" name="message" placeholder="Message"></textarea>
               </div>
               <div class="mb-5 d-grid">
                 <button type="submit" class="btn btn-primary">Submit</button>
