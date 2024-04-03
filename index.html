@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=400, initial-scale=1.0" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
       rel="stylesheet"
@@ -20,7 +20,7 @@
     <script src="https://unpkg.com/scrollreveal"></script>
     <title>Ein Cagle | Web Developer</title>
   </head>
-  <body>
+  <body class="vw-100 vh-100">
     <header class="header vh-100 text-center postition-relative">
       <div class="text-container position-relative d-flex flex-column justify-content-center align-items-center h-100">
         <h5 class="text-primary fs-3 fw-bold text-uppercase">
@@ -85,7 +85,7 @@
         <div class="row">
           <div class="col-md-6">
             <h3 class="text-uppercase fw-bold pb-3 text-center">Profile</h3>
-            <ul class="list-group list-group-flush ps-7">
+            <ul class="details list-group list-group-flush ps-7">
               <li class="list-group-item mb-3 ps-5 scroll-reveal1" id="passage">
                 <h5 class="text-transform ">
                   <i class="fas fa-user text-primary"></i> Full Name:
@@ -114,14 +114,13 @@
           </div>
           <div class="col-md-6">
             <h3 class="text-uppercase fw-bold pb-4 text-center">Skills</h3>
-            <h5><i class="fas fa-check pb-4 ps-8 scroll-reveal1" id="passage"></i> <span class="ps-3 scroll-reveal1">HTML5</span></h5>
-            <h5><i class="fas fa-check pb-4 ps-8 scroll-reveal2" id="passage"></i> <span class="ps-3 scroll-reveal2">CSS</span></h5>
-            <h5><i class="fas fa-check pb-4 ps-8 scroll-reveal3" id="passage"></i> <span class="ps-3 scroll-reveal3">JavaScript</span></h5>
-            <h5><i class="fas fa-check pb-4 ps-8 scroll-reveal4" id="passage"></i> <span class="ps-3 scroll-reveal4">Bootstrap</span></h5>
-            <h5><i class="fas fa-check pb-4 ps-8 scroll-reveal5" id="passage"></i> <span class="ps-3 scroll-reveal5">Tailwind</span></h5>
-            <h5><i class="fas fa-check pb-4 ps-8 scroll-reveal6" id="passage"></i> <span class="ps-3 scroll-reveal6">Figma</span></h5>
-            <h5><i class="fas fa-check pb-4 ps-8 scroll-reveal7" id="passage"></i> <span class="ps-3 scroll-reveal7">Python</span></h5>
-          </div>
+            <h5><i class="fas fa-check pb-4 ps-8 scroll-reveal1 details" id="passage"></i> <span class="ps-3 scroll-reveal1">HTML5</span></h5>
+            <h5><i class="fas fa-check pb-4 ps-8 scroll-reveal2 details" id="passage"></i> <span class="ps-3 scroll-reveal2">CSS</span></h5>
+            <h5><i class="fas fa-check pb-4 ps-8 scroll-reveal3 details" id="passage"></i> <span class="ps-3 scroll-reveal3">JavaScript</span></h5>
+            <h5><i class="fas fa-check pb-4 ps-8 scroll-reveal4 details" id="passage"></i> <span class="ps-3 scroll-reveal4">Bootstrap</span></h5>
+            <h5><i class="fas fa-check pb-4 ps-8 scroll-reveal5 details" id="passage"></i> <span class="ps-3 scroll-reveal5">React.js</span></h5>
+            <h5><i class="fas fa-check pb-4 ps-8 scroll-reveal6 details" id="passage"></i> <span class="ps-3 scroll-reveal6">Node.js</span></h5>
+            <h5><i class="fas fa-check pb-4 ps-8 scroll-reveal7 details" id="passage"></i> <span class="ps-3 scroll-reveal7">Figma</span></h5>
         </div>
         <div class="row mt-5 text-center">
           <div class="col-12">
@@ -294,69 +293,69 @@
       sr.reveal('.scroll-reveal1', {
         duration: 2000,
         origin: 'left',
-        distance: '300px',
+        distance: '10px',
         reset: true
       });
       sr.reveal('.scroll-reveal2', {
         duration: 2000,
         origin: 'left',
-        distance: '300px',
+        distance: '10px',
         reset: true,
         delay: 100
       });
       sr.reveal('.scroll-reveal3', {
         duration: 2000,
         origin: 'left',
-        distance: '300px',
+        distance: '10px',
         reset: true,
         delay: 200
       });
       sr.reveal('.scroll-reveal4', {
         duration: 2000,
         origin: 'left',
-        distance: '300px',
+        distance: '10px',
         reset: true,
         delay: 300
       });
       sr.reveal('.scroll-reveal5', {
         duration: 2000,
         origin: 'left',
-        distance: '300px',
+        distance: '10px',
         reset: true,
         delay: 400
       });
       sr.reveal('.scroll-reveal6', {
         duration: 2000,
         origin: 'left',
-        distance: '300px',
+        distance: '10px',
         reset: true,
         delay: 500
       });
       sr.reveal('.scroll-reveal7', {
         duration: 2000,
         origin: 'left',
-        distance: '300px',
+        distance: '10px',
         reset: true,
         delay: 600
       });
       sr.reveal('.scroll-reveal-right1', {
         duration: 2000,
         origin: 'right',
-        distance: '300px',
+        distance: '10px',
         reset: true,
         delay: 600
       });
       sr.reveal('.scroll-reveal-right3', {
         duration: 2000,
         origin: 'right',
-        distance: '300px',
+        distance: '10px',
         reset: true,
         delay: 600
       });
       sr.reveal('.scroll-reveal-right5', {
         duration: 2000,
         origin: 'right',
-        distance: '300px',
+        distance: '10px',
         reset: true,
         delay: 600
       });
